@@ -1,0 +1,69 @@
+<!-- Hero Start -->
+<div class="container-fluid pb-5 hero-header bg-light mb-5">
+  <div class="container py-5">
+    <div class="row g-5 align-items-center mb-5">
+      <div class="col-lg-6">
+        <h1 class="display-1 mb-4 animated slideInRight">Your Style, Your Cart, <span class="text-primary">Your Studio</span>
+          </h1>
+        <h5 class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slideInRight">
+          Making you Stylish Since 2010</h5>
+      </div>
+      <div class="col-lg-6">
+        <div class="header-carousel animated fadeIn">
+          <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide>
+              <img class="img-fluid" src="img/hero-slider-1.jpg" alt="">
+            </ng-template>
+            <ng-template carouselSlide>
+              <img class="img-fluid" src="img/hero-slider-2.jpg" alt="">
+            </ng-template>
+            <ng-template carouselSlide>
+              <img class="img-fluid" src="img/hero-slider-3.jpg" alt="">
+            </ng-template>
+          </owl-carousel-o>
+        </div>
+      </div>
+    </div>
+    <div class="row g-5 animated fadeIn">
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+            <i class="fa fa-th-large fa-2x mb-3"></i>
+          </div>
+          <h5 class="lh-base mb-0">Wide Product Range</h5>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+            <i class="fa fa-shopping-cart fa-2x mb-3"></i>
+          </div>
+          <h5 class="lh-base mb-0">Seamless Shopping</h5>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+             <i class="fa fa-tags fa-2x mb-3"></i>
+          </div>
+          <h5 class="lh-base mb-0">Quality & Affordability</h5>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+             <i class="fa fa-headset fa-2x mb-3"></i>
+          </div>
+          <h5 class="lh-base mb-0">24/7 Support</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Hero End -->
+<app-about></app-about>
+<app-feature></app-feature>
+<app-productslider></app-productslider>
+<app-service></app-service>
+<app-products></app-products>
+<app-testinomial></app-testinomial>
